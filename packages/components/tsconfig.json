@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "exclude": ["**/dist/**", "./unocss.config.ts"],
+  "include": ["**/*.ts", "**/*.d.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "declaration": true,
+    "composite": false,
+    "outDir": "./dist"
+  }
+}
