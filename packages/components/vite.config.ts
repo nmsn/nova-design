@@ -1,10 +1,11 @@
 import { defineConfig } from "vite";
 import { resolve } from "node:path";
 import react from "@vitejs/plugin-react";
+import UnoCSS from "unocss/vite";
 import typescript from "@rollup/plugin-typescript";
 
 export default defineConfig({
-  plugins: [react(), typescript()],
+  plugins: [UnoCSS(), react(), typescript()],
   build: {
     lib: {
       entry: resolve(__dirname, "index.ts"),
