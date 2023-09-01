@@ -1,6 +1,6 @@
 {
   "extends": "../../tsconfig.json",
-  "exclude": ["**/dist/**", "./unocss.config.ts"],
+  "exclude": ["**/dist/**"],
   "include": ["**/*.ts", "**/*.d.ts", "**/*.tsx"],
   "compilerOptions": {
     "declaration": true,
