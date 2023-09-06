@@ -150,7 +150,7 @@ export const lightTheme = {
   "--onu-theme-primaryShadow": "var(--onu-colors-blue500)",
 
   "--onu-theme-secondary": "var(--onu-colors-purple600)",
-  // "--onu-theme-secondaryHsl": `${hex2rgba("#A855F7")}`,
+  "--onu-theme-secondaryHsl": `${hex2rgba("#A855F7")}`,
   "--onu-theme-secondaryLight": "var(--onu-colors-purple200)",
   "--onu-theme-secondaryBorder": "var(--onu-colors-purple600)",
   "--onu-theme-secondaryLightHover": "var(--onu-colors-purple500)",
@@ -160,7 +160,7 @@ export const lightTheme = {
   "--onu-theme-secondaryShadow": "var(--onu-colors-purple500)",
 
   "--onu-theme-success": "var(--onu-colors-green600)",
-  // "--onu-theme-successHsl": `${hex2rgba("#0ACF83")}`,
+  "--onu-theme-successHsl": `${hex2rgba("#0ACF83")}`,
   "--onu-theme-successLight": "var(--onu-colors-green200)",
   "--onu-theme-successBorder": "var(--onu-colors-green600)",
   "--onu-theme-successLightHover": "var(--onu-colors-green500)",
