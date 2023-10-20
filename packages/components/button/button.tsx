@@ -1,19 +1,7 @@
 import type { SizeType, ThemeType } from "../types";
+import { ButtonProps } from "./props";
 import React from "react";
 import cx from "classnames";
-type ButtonProps = {
-  type?: ThemeType | "default";
-  shadow?: boolean;
-  light?: boolean;
-  dashed?: boolean;
-  text?: boolean;
-  size?: SizeType;
-  rounded?: boolean;
-  disabled?: boolean;
-  loading?: boolean;
-  icon?: string;
-  children?: React.ReactNode;
-};
 
 const Button = ({
   loading,
@@ -24,7 +12,6 @@ const Button = ({
   shadow,
   dashed,
   light,
-  text,
   children,
   icon,
 }: ButtonProps) => {
